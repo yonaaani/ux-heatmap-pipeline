@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+out/
+models/*
+!models/yolo11x_rico25/
+models/yolo11x_rico25/*
+!models/yolo11x_rico25/thresholds.json
+!models/face/

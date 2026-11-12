@@ -1,0 +1,21 @@
+{
+  "width": 390,
+  "height": 720,
+  "background": "#F4F1EC",
+  "elements": [
+    {"id": "card", "type": "card", "role": "secondary", "box": [12, 12, 366, 696], "fill": "#FFFFFF", "radius": 20},
+    {"id": "sale_banner", "type": "chip", "role": "decor", "box": [28, 28, 170, 30], "text": "-50% ТІЛЬКИ СЬОГОДНІ", "fill": "#FF2D55", "color": "#FFFFFF", "font_size": 12, "bold": true, "radius": 6},
+    {"id": "badge", "type": "icon", "role": "decor", "box": [330, 26, 32, 32], "fill": "#FF3B30"},
+    {"id": "photo", "type": "image", "role": "decor", "box": [28, 70, 334, 250], "fill": "#FFE45C", "radius": 14, "palette": ["#FF2D55", "#00C2FF", "#7CFF4F", "#B044FF", "#FF9F1C", "#00E0B0"]},
+    {"id": "title", "type": "heading", "role": "primary", "box": [28, 334, 334, 60], "text": "Навушники бездротові Model X", "color": "#BDB5AE", "font_size": 22, "bold": true},
+    {"id": "price", "type": "price", "role": "primary", "box": [28, 398, 200, 30], "text": "1 299 грн", "color": "#E08A6E", "font_size": 20, "bold": true},
+    {"id": "desc", "type": "text", "role": "secondary", "box": [28, 432, 334, 40], "text": "Шумозаглушення, 30 годин роботи, швидка зарядка, Bluetooth 5.3", "color": "#CFC8C2", "font_size": 12},
+    {"id": "opt_1", "type": "chip", "role": "secondary", "box": [28, 484, 72, 30], "text": "Чорні", "fill": "#7A5CFF", "color": "#FFFFFF", "font_size": 12, "radius": 15},
+    {"id": "opt_2", "type": "chip", "role": "secondary", "box": [106, 484, 72, 30], "text": "Білі", "fill": "#FFB800", "color": "#FFFFFF", "font_size": 12, "radius": 15},
+    {"id": "opt_3", "type": "chip", "role": "secondary", "box": [184, 484, 72, 30], "text": "Сині", "fill": "#00B3A4", "color": "#FFFFFF", "font_size": 12, "radius": 15},
+    {"id": "opt_4", "type": "chip", "role": "secondary", "box": [262, 484, 90, 30], "text": "Рожеві", "fill": "#FF4D8D", "color": "#FFFFFF", "font_size": 12, "radius": 15},
+    {"id": "promo", "type": "text", "role": "decor", "box": [28, 526, 334, 50], "text": "Безкоштовна доставка! Кешбек 10%! Подарунок до замовлення!", "color": "#FF6A3D", "font_size": 15, "bold": true},
+    {"id": "cta", "type": "button", "role": "cta", "box": [28, 600, 334, 40], "text": "Купити", "fill": "#F7DCD2", "color": "#FFFFFF", "font_size": 15, "bold": true, "radius": 10},
+    {"id": "wishlist", "type": "text", "role": "secondary", "box": [28, 654, 334, 24], "text": "Додати в обране", "color": "#D2C7C0", "font_size": 13, "align": "center"}
+  ]
+}

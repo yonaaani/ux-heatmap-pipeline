@@ -1,0 +1,8 @@
+{
+  "note": "Per-class confidence thresholds for E5 (max F1 on rico25 val, 882 screens). Classes with < 600 training objects (Button Bar, Video, Number Stepper, Bottom Navigation, Date Picker) keep the default because their val support is too small for a stable threshold.",
+  "default": 0.25,
+  "per_class": {"Text": 0.272, "Image": 0.227, "Icon": 0.283, "List Item": 0.285, "Text Button": 0.229, "Toolbar": 0.711,
+                "Web View": 0.38, "Input": 0.261, "Card": 0.384, "Advertisement": 0.386, "Background Image": 0.281,
+                "Drawer": 0.627, "Radio Button": 0.403, "Checkbox": 0.8, "Multi-Tab": 0.61, "Pager Indicator": 0.203,
+                "Modal": 0.092, "On/Off Switch": 0.617, "Slider": 0.488, "Map View": 0.613}
+}

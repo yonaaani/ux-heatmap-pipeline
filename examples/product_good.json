@@ -1,0 +1,17 @@
+{
+  "width": 390,
+  "height": 720,
+  "background": "#F4F1EC",
+  "elements": [
+    {"id": "card", "type": "card", "role": "secondary", "box": [12, 12, 366, 696], "fill": "#FFFFFF", "radius": 20},
+    {"id": "photo", "type": "image", "role": "decor", "box": [28, 28, 334, 250], "fill": "#EEF0F3", "radius": 14, "palette": ["#D5D9E0", "#E2E5EA"]},
+    {"id": "title", "type": "heading", "role": "primary", "box": [28, 296, 334, 64], "text": "Навушники бездротові Model X", "color": "#1F2430", "font_size": 24, "bold": true},
+    {"id": "price", "type": "price", "role": "primary", "box": [28, 366, 200, 34], "text": "1 299 грн", "color": "#1F2430", "font_size": 24, "bold": true},
+    {"id": "desc", "type": "text", "role": "secondary", "box": [28, 408, 334, 48], "text": "Шумозаглушення, 30 годин роботи, швидка зарядка.", "color": "#4E5563", "font_size": 16},
+    {"id": "opt_1", "type": "chip", "role": "secondary", "box": [28, 470, 104, 46], "text": "Чорні", "fill": "#EEF0F3", "color": "#1F2430", "font_size": 15, "radius": 23},
+    {"id": "opt_2", "type": "chip", "role": "secondary", "box": [143, 470, 104, 46], "text": "Білі", "fill": "#EEF0F3", "color": "#1F2430", "font_size": 15, "radius": 23},
+    {"id": "opt_3", "type": "chip", "role": "secondary", "box": [258, 470, 104, 46], "text": "Сині", "fill": "#EEF0F3", "color": "#1F2430", "font_size": 15, "radius": 23},
+    {"id": "cta", "type": "button", "role": "cta", "box": [28, 590, 334, 56], "text": "Купити", "fill": "#1F6FEB", "color": "#FFFFFF", "font_size": 18, "bold": true, "radius": 14},
+    {"id": "wishlist", "type": "text", "role": "secondary", "box": [28, 660, 334, 24], "text": "Додати в обране", "color": "#4E5563", "font_size": 15, "align": "center"}
+  ]
+}
