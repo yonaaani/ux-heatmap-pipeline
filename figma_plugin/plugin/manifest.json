@@ -1,0 +1,14 @@
+{
+  "name": "UX-аналіз макета (локально)",
+  "id": "ux-heatmap-layout-local",
+  "api": "1.0.0",
+  "main": "code.js",
+  "ui": "ui.html",
+  "editorType": ["figma"],
+  "documentAccess": "dynamic-page",
+  "networkAccess": {
+    "allowedDomains": ["none"],
+    "devAllowedDomains": ["http://localhost:8765"],
+    "reasoning": "Аналіз виконує локальний сервер на цьому ж комп'ютері (figma_plugin/server.py); дані нікуди не надсилаються."
+  }
+}
